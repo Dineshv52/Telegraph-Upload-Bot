@@ -1,4 +1,4 @@
-pyrogram==2.0.94
+pyrogram==2.0.86
 tgcrypto
 telegraph
 python-dotenv

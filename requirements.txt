@@ -1,4 +1,4 @@
-pyrogram==1.4.16
+https://github.com/Dineshkarthik/pyrogram/archive/refs/heads/master.zip
 tgcrypto
 telegraph
 python-dotenv

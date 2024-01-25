@@ -1,4 +1,4 @@
-# pyrogram==1.4.16
+pyrogram==2.0.106
 tgcrypto
 telegraph
 python-dotenv
@@ -6,4 +6,3 @@ motor==3.0.0
 pyromod==1.5
 werkzeug==2.0.3
 args
-https://github.com/Dineshkarthik/pyrogram/archive/refs/heads/master.zip

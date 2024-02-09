@@ -51,7 +51,7 @@ async def photo_upload(bot, message):
         ]
     )
         await t.edit_text(
-            f"🖇️ **ʟɪɴᴋ** - `{generated_link} `\n\n<a href=https://youtube.com/jankarikiduniya>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a>",
+            f"🖇️ **ʟɪɴᴋ** - `{generated_link} `\n\n<a href=https://youtube.com/@SecurityInsiders>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a>",
             reply_markup=IN_BUTTON,
             disable_web_page_preview=True)
     finally:
@@ -84,7 +84,7 @@ async def video_upload(bot, message):
             ]
         )
         await t.edit_text(
-            f"🖇️ **ʟɪɴᴋ** - `{generated_link} `\n\n<a href=https://youtube.com/jankarikiduniya>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a>",
+            f"🖇️ **ʟɪɴᴋ** - `{generated_link} `\n\n<a href=https://youtube.com/@SecurityInsiders>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a>",
             reply_markup=IN_BUTTON,
             disable_web_page_preview=True)
     finally:
@@ -120,7 +120,7 @@ async def animation_upload(bot, message):
         ]
         )
         await t.edit_text(
-            f"🖇️ **ʟɪɴᴋ** - `{generated_link} `\n\n<a href=https://youtube.com/jankarikiduniya>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a>",
+            f"🖇️ **ʟɪɴᴋ** - `{generated_link} `\n\n<a href=https://youtube.com/@SecurityInsiders>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a>",
             reply_markup=IN_BUTTON,
             disable_web_page_preview=True)
     finally:

@@ -26,7 +26,7 @@ class PandaData(object):
                 InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Panda_bot_update_channelt")
             ],
             [
-                InlineKeyboardButton("📼 ʏᴏᴜᴛᴜʙᴇ 📼", url="https://youtube/jankarikiduniya")
+                InlineKeyboardButton("📼 ʏᴏᴜᴛᴜʙᴇ 📼", url="https://youtube/SecurityInsiders")
             ]
         ]
     )
@@ -82,7 +82,7 @@ class PandaData(object):
 <u>**ᴛᴇᴀᴍ ᴀʟᴇxᴀ:**</u>
 ᴛᴇᴀᴍ ᴀʟᴇxᴀ, ꜰɪʀsᴛʟʏ, ɪᴛ ᴡᴀs ᴍᴀɴᴀɢᴇᴅ ʙʏ ᴀsᴀᴅ ᴀʟɪ ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ, ʙᴜᴛ ᴛʜᴇʏ ʜᴀᴠᴇ ᴀʟʟ ʟᴇꜰᴛ. ɴᴏᴡ, ɪᴛ ɪs ʙᴇɪɴɢ ʀᴜɴ ʙʏ ᴀsᴀᴅ ᴀʟɪ ᴀɴᴅ ᴠᴇɴᴏᴍ., ʜᴀs ᴛʀᴜʟʏ ʙᴇᴇɴ ᴀ ꜰᴏʀᴄᴇ ᴛᴏ ʙᴇ ʀᴇᴄᴋᴏɴᴇᴅ ᴡɪᴛʜ. ᴡɪᴛʜ ᴛʜᴇɪʀ ᴅᴇᴅɪᴄᴀᴛɪᴏɴ ᴀɴᴅ ʜᴀʀᴅ ᴡᴏʀᴋ, ᴛʜᴇʏ ʜᴀᴠᴇ ᴍᴀɴᴀɢᴇᴅ ᴛᴏ ᴄʀᴇᴀᴛᴇ ɴᴜᴍᴇʀᴏᴜs ʙᴏᴛs ꜰᴏʀ ᴠᴀʀɪᴏᴜs ᴘᴜʀᴘᴏsᴇs sᴜᴄʜ ᴀs ᴍᴜsɪᴄ, ᴍᴀɴᴀɢᴇᴍᴇɴᴛ, ᴍᴇɴᴛɪᴏɴ, sᴇssɪᴏɴ, ᴄʜᴀᴛʙᴏᴛ, ᴀɴᴅ ᴛᴇʟᴇɢʀᴀᴘʜ ᴜᴘʟᴏᴀᴅ ʙᴏᴛ, ᴀᴍᴏɴɢ ᴏᴛʜᴇʀs. ᴛʜᴇɪʀ ᴇꜰꜰᴏʀᴛs ʜᴀᴠᴇ ɴᴏᴛ ɢᴏɴᴇ ᴜɴɴᴏᴛɪᴄᴇᴅ, ᴀs ᴄᴏᴜɴᴛʟᴇss ᴜsᴇʀs ʜᴀᴠᴇ ʙᴇɴᴇꜰɪᴛᴇᴅ ꜰʀᴏᴍ ᴛʜᴇɪʀ ᴄʀᴇᴀᴛɪᴏɴs. ɪɴ ᴀᴅᴅɪᴛɪᴏɴ, ᴛᴇᴀᴍ ᴀʟᴇxᴀ ɪs ᴀʟsᴏ ʀᴇsᴘᴏɴsɪʙʟᴇ ꜰᴏʀ ʀᴜɴɴɪɴɢ ᴛʜᴇ ʜɪɢʜʟʏ sᴜᴄᴄᴇssꜰᴜʟ ᴊᴀɴᴋᴀʀɪ ᴋɪ ᴅᴜɴɪʏᴀ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ, ᴡʜɪᴄʜ ʜᴀs ᴘʀᴏᴠɪᴅᴇᴅ ᴠᴀʟᴜᴀʙʟᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴛᴏ ᴠɪᴇᴡᴇʀs ᴡᴏʀʟᴅᴡɪᴅᴇ. 
 
-<a href="https://www.youtube.com/jankarikiduniya" target="_blank">Click Here To Visit Our Channel</a>
+<a href="https://www.youtube.com/SecurityInsiders" target="_blank">Click Here To Visit Our Channel</a>
 
 ᴛᴏ ᴀʟʟ ᴛʜᴇ ᴜsᴇʀs ᴡʜᴏ ʜᴀᴠᴇ sᴜᴘᴘᴏʀᴛᴇᴅ ᴛᴇᴀᴍ ᴀʟᴇxᴀ ᴀɴᴅ ᴜᴛɪʟɪᴢᴇᴅ ᴛʜᴇɪʀ ʙᴏᴛs, ᴡᴇ ᴇxᴛᴇɴᴅ ᴏᴜʀ ʜᴇᴀʀᴛꜰᴇʟᴛ ᴛʜᴀɴᴋs. ʏᴏᴜʀ ᴄᴏɴᴛɪɴᴜᴇᴅ sᴜᴘᴘᴏʀᴛ ʜᴀs ʙᴇᴇɴ ɪɴsᴛʀᴜᴍᴇɴᴛᴀʟ ɪɴ ᴅʀɪᴠɪɴɢ ᴛᴇᴀᴍ ᴀʟᴇxᴀ ᴛᴏ ɢʀᴇᴀᴛᴇʀ ʜᴇɪɢʜᴛs, ᴀɴᴅ ᴡᴇ ʟᴏᴏᴋ ꜰᴏʀᴡᴀʀᴅ ᴛᴏ ᴘʀᴏᴠɪᴅɪɴɢ ʏᴏᴜ ᴡɪᴛʜ ᴇᴠᴇɴ ᴍᴏʀᴇ ɪɴɴᴏᴠᴀᴛɪᴠᴇ sᴏʟᴜᴛɪᴏɴs ɪɴ ᴛʜᴇ ꜰᴜᴛᴜʀᴇ.
 **──────────────**

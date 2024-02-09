@@ -39,7 +39,7 @@ async def cb_handler(client, query: CallbackQuery):
         )
 
 
-@Client.on_message(filters.command("start") & filters.private & ~filters.edited)
+@Client.on_message(filters.command("start") & filters.private)
 async def start_(client: Client, message: Message):
     await add_telegraph_user(message.from_user.id)
     alexamusic = await message.reply("🤭🤏✌️")

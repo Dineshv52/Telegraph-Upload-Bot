@@ -2,3 +2,4 @@
 *.new
 *.venv_new
 *.venv_yyyy
+*.env

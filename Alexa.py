@@ -17,7 +17,7 @@ logging.basicConfig(
 )  # type: ignore
 
 alexa = Client(
-    ":memory:",
+    "alexa",
     api_id=env.API_ID,
     api_hash=env.API_HASH,
     bot_token=env.BOT_TOKEN,

@@ -79,7 +79,7 @@ async def start_(client: Client, message: Message):
     sender_name = message.from_user.username
     return await client.send_message(LOG_ID, f"{message.from_user.mention} ᴊᴜsᴛ sᴛᴀʀᴛᴇᴅ ʏᴏᴜʀ ʙᴏᴛ.\n\n**ᴜsᴇʀ ɪᴅ:** {sender_id}\n**ᴜsᴇʀɴᴀᴍᴇ:** @{sender_name}")
 
-@Client.on_message(filters.command("help") & filters.private & ~filters.edited)
+@Client.on_message(filters.command("help") & filters.private)
 async def help(client, message):
     lamao = await message.reply_text(
         text=AlexaData.HELP_STRING,

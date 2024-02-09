@@ -52,24 +52,24 @@ async def start_(client: Client, message: Message):
     umm = await message.reply_sticker("CAACAgIAAxkBAAEForNjAykaq_efq4Wd-9KZv-nNxJRn3AACIgMAAm2wQgO8x8PfoXC1eCkE")
     await asyncio.sleep(2)
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/7d7df33268ac53f8480fe.jpg",
+        photo=f"https://telegra.ph/file/763a553cc63fd471085f6.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ᴛᴇᴀᴍ ᴀʟᴇxᴀ ᴘʀᴏᴊᴇᴄᴛ ғᴏʀ ᴜᴘʟᴏᴀᴅɪɴɢ ᴏɴ ᴛᴇʟᴇɢʀᴀᴘʜ ...
+💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ Security Panda ᴘʀᴏᴊᴇᴄᴛ ғᴏʀ ᴜᴘʟᴏᴀᴅɪɴɢ ᴏɴ ᴛᴇʟᴇɢʀᴀᴘʜ ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)
-┣★ ᴜᴘᴅᴀᴛᴇs : [ᴀʟᴇxᴀ ʙᴏᴛ](https://t.me/Alexa_BotUpdates)
-┣★ sᴜᴘᴘᴏʀᴛ : [ᴀʟᴇxᴀ sᴜᴘᴘᴏʀᴛ](https://t.me/Alexa_Help)
+┣★ ᴄʀᴇᴀᴛᴏʀ : [ᴀsᴀᴅ ᴀʟɪ](https://t.me/bugbountyhunt)
+┣★ ᴜᴘᴅᴀᴛᴇs : [ᴀʟᴇxᴀ ʙᴏᴛ](https://t.me/+5lLi1M5kUElkYjE1)
+┣★ sᴜᴘᴘᴏʀᴛ : [ᴀʟᴇxᴀ sᴜᴘᴘᴏʀᴛ](https://t.me/PandaSupportgroup)
 ┣★ ʀᴜɴ ➛  : /help ᴛᴏ sᴇᴇ ʜᴇʟᴘ ᴍᴇɴᴜ
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/Dr_Asad_Ali) ...
+ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/bugbountyhunt) ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
    reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌹 ❰ ᴊᴏɪɴ ʜᴇʀᴇ ❱ 🌹", url=f"https://t.me/Alexa_Help")
+                        "🌹 ❰ ᴊᴏɪɴ ʜᴇʀᴇ ❱ 🌹", url=f"https://t.me/PandaSupportgroup")
                 ]
                 
            ]

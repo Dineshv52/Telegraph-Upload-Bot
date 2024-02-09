@@ -39,17 +39,17 @@ async def upload_text_telegraph(client, message: Message):
         telegraph.create_account(short_name='The Team Alexa')
         author_url = f'https://telegram.dog/{message.from_user.username}' if message.from_user.id else None
         if len(message.command) > 1:
-            alexa_title = ' '.join(message.command[1:])
+            security_title = ' '.join(message.command[1:])
         else:
-            alexa_title = 'Uploaded By Team Alexa Bot'
+            security_title = 'Uploaded By SecurityPanda Upload Bot'
         
-        response = telegraph.create_page(title=alexa_title, html_content=text, author_name=str(message.from_user.first_name), author_url=author_url)
+        response = telegraph.create_page(title=security_title, html_content=text, author_name=str(message.from_user.first_name), author_url=author_url)
         generated_link = 'https://telegra.ph/{}'.format(response['path'])
         IN_BUTTON = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/Alexa_Help"),
-                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Alexa_BotUpdates")
+                    InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/PandaSupportgroup"),
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/+5lLi1M5kUElkYjE1")
                 ],
                 [
                     InlineKeyboardButton("🌐 ᴡᴇʙ ᴘʀᴇᴠɪᴇᴡ 🌐", url=generated_link)
@@ -57,7 +57,7 @@ async def upload_text_telegraph(client, message: Message):
             ]
         )        
         await msg.edit_text(
-            f"🖇️ ʟɪɴᴋ - {generated_link}\n\n<center><a href=https://youtube.com/jankarikiduniya style=color:red;>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a></center>",
+            f"🖇️ ʟɪɴᴋ - {generated_link}\n\n<center><a href=https://youtube.com/@SecurityInsiders?si=SHli-_QHka6cK62T style=color:red;>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a></center>",
             reply_markup=IN_BUTTON,
             disable_web_page_preview=True)
     except Exception as e:
@@ -110,8 +110,8 @@ async def upload_to_telegraph(bot, message):
             IN_BUTTON = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/Alexa_Help"),
-                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Alexa_BotUpdates")
+                        InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/bugbountyhunt"),
+                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/+5lLi1M5kUElkYjE1")
                     ],
                     [
                         InlineKeyboardButton("🌐 ᴡᴇʙ ᴘʀᴇᴠɪᴇᴡ 🌐", url=generated_link)
@@ -121,7 +121,7 @@ async def upload_to_telegraph(bot, message):
             await bot.edit_message_text(
                 chat_id=message.chat.id,
                 message_id=msg.message_id,
-                text=f"🖇️ ʟɪɴᴋ - {generated_link}\n\n<center><a href=https://youtube.com/jankarikiduniya style=color:red;>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a></center>",
+                text=f"🖇️ ʟɪɴᴋ - {generated_link}\n\n<center><a href=https://youtube.com/@SecurityInsiders?si=SHli-_QHka6cK62T style=color:red;>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a></center>",
                 reply_markup=IN_BUTTON,
                 disable_web_page_preview=True,
                 parse_mode="html"

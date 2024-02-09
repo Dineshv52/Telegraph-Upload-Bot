@@ -1,40 +1,31 @@
 <h1 align="center"><b>❤️ Telegraph Upload Bot ❤️</b></h1>
 
-<p align="center">➛ ɪɴᴛʀᴏᴅᴜᴄɪɴɢ ᴛʜᴇ ʟᴀᴛᴇsᴛ ᴘʀᴏᴊᴇᴄᴛ ꜰʀᴏᴍ ᴛᴇᴀᴍ ᴀʟᴇxᴀ - ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴘʜ ᴜᴘʟᴏᴀᴅ ʙᴏᴛ! ᴛʜɪs ɪɴᴄʀᴇᴅɪʙʟᴇ ʙᴏᴛ ᴄᴀɴ ᴇꜰꜰᴏʀᴛʟᴇssʟʏ ᴜᴘʟᴏᴀᴅ ᴘɪᴄᴛᴜʀᴇs, ᴠɪᴅᴇᴏs, ᴀɴɪᴍᴀᴛɪᴏɴs, ᴀɴᴅ ᴛᴇxᴛs ᴏɴ ᴛᴇʟᴇɢʀᴀᴘʜ ᴀɴᴅ ɪɴsᴛᴀɴᴛʟʏ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴡɪᴛʜ ᴀ ᴅɪʀᴇᴄᴛ ʟɪɴᴋ ᴛᴏ ᴛʜᴇ ᴜᴘʟᴏᴀᴅᴇᴅ ꜰɪʟᴇ. ᴊᴜsᴛ ʀᴇᴍᴇᴍʙᴇʀ, ꜰᴏʀ ᴛʜᴇ ʙᴇsᴛ ᴇxᴘᴇʀɪᴇɴᴄᴇ, ᴇɴsᴜʀᴇ ᴛʜᴀᴛ ʏᴏᴜʀ ꜰɪʟᴇ ɪs ᴜɴᴅᴇʀ 5ᴍʙ ɪɴ sɪᴢᴇ.</p>
+<p align="center">➛ ɪɴᴛʀᴏᴅᴜᴄɪɴɢ ᴛʜᴇ ʟᴀᴛᴇsᴛ ᴘʀᴏᴊᴇᴄᴛ ꜰʀᴏᴍ Security Panda  - ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴘʜ ᴜᴘʟᴏᴀᴅ ʙᴏᴛ! ᴛʜɪs ɪɴᴄʀᴇᴅɪʙʟᴇ ʙᴏᴛ ᴄᴀɴ ᴇꜰꜰᴏʀᴛʟᴇssʟʏ ᴜᴘʟᴏᴀᴅ ᴘɪᴄᴛᴜʀᴇs, ᴠɪᴅᴇᴏs, ᴀɴɪᴍᴀᴛɪᴏɴs, ᴀɴᴅ ᴛᴇxᴛs ᴏɴ ᴛᴇʟᴇɢʀᴀᴘʜ ᴀɴᴅ ɪɴsᴛᴀɴᴛʟʏ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴡɪᴛʜ ᴀ ᴅɪʀᴇᴄᴛ ʟɪɴᴋ ᴛᴏ ᴛʜᴇ ᴜᴘʟᴏᴀᴅᴇᴅ ꜰɪʟᴇ. ᴊᴜsᴛ ʀᴇᴍᴇᴍʙᴇʀ, ꜰᴏʀ ᴛʜᴇ ʙᴇsᴛ ᴇxᴘᴇʀɪᴇɴᴄᴇ, ᴇɴsᴜʀᴇ ᴛʜᴀᴛ ʏᴏᴜʀ ꜰɪʟᴇ ɪs ᴜɴᴅᴇʀ 5ᴍʙ ɪɴ sɪᴢᴇ.</p>
 
 <a href="https://t.me/bugbountyhunt"><img src="" alt="image" style="max-width:100%;"></a>
 <p align="center">
 <a href="https://python.org"><img src="http://forthebadge.com/images/badges/made-with-python.svg" alt="made-with-python"></a>
-<br>
-    <img src="https://img.shields.io/github/stars/TheTeamAlexa/Telegraph-Upload-Bot?style=for-the-badge" alt="Stars">
-    <img src="https://img.shields.io/github/forks/TheTeamAlexa/Telegraph-Upload-Bot?style=for-the-badge" alt="Forks">
-    <img src="https://img.shields.io/github/watchers/TheTeamAlexa/Telegraph-Upload-Bot?style=for-the-badge" alt="Watchers"> 
-<br>
-    <img src="https://img.shields.io/github/license/TheTeamAlexa/Telegraph-Upload-Bot?style=for-the-badge" alt="License">
-    <img src="https://img.shields.io/github/repo-size/TheTeamAlexa/Telegraph-Upload-Bot?style=for-the-badge" alt="Repository Size">
-    <img src="https://img.shields.io/github/contributors/TheTeamAlexa/Telegraph-Upload-Bot?style=for-the-badge" alt="Contributors">
-    <img src="https://img.shields.io/github/issues/TheTeamAlexa/Telegraph-Upload-Bot?style=for-the-badge" alt="Issues">
-</p>  
 
 ### REQUIREMENTS: 😊
 
-- pyrogram==1.4.16
+- Pyrogram==2.0.106
 - tgcrypto
 - telegraph
 - python-dotenv==0.*
-- motor==3.0.0
+- motor==3.3.2
 - Python 3.7 Or Higher
+
 
 ## HEROKU DEPLOYMENT: ❤️
 ᴛʜᴇ ᴇᴀsʏ ᴡᴀʏ ᴛᴏ ʜᴏsᴛ ᴛʜɪs ʙᴏᴛ, ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ, ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴀᴘᴘ ᴄᴏᴜɴᴛʀʏ ᴛᴏ ᴇᴜʀᴏᴘᴇ (ɪᴛ ᴡɪʟʟ ʜᴇʟᴘ ᴛᴏ ᴍᴀᴋᴇ ᴛʜᴇ ʙᴏᴛ sᴛᴀʙʟᴇ).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TheTeamAlexa/Telegraph-Upload-Bot)
-- <a href="https://theteamalexa.ga">Visit Our Website ✨</a>
-- <a href="http://t.me/Alexa_TelegraphBot">Try Our Bot ✨</a>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Dineshv52/Telegraph-Upload-Bot)
+- <a href="https://youtube.com/@SecurityInsiders">Visit Our Website ✨</a>
+- <a href="http://t.me/ImageuploadersBot">Try Our Bot ✨</a>
 
 ### MY – YOUTUBE CARRIER:
 
-<a href="https://www.youtube.com/JankariKiDuniya"><img src="https://img.shields.io/badge/Join-Subscribe%20Support-blue.svg?style=for-the-badge&logo=YouTube"></a>
+<a href="https://youtube.com/@SecurityInsiders"><img src="https://img.shields.io/badge/Join-Subscribe%20Support-blue.svg?style=for-the-badge&logo=YouTube"></a>
 
 ## CONFIG VARS:
 ʏᴏᴜ ᴄᴀɴ ᴀᴅᴅ .ᴇɴᴠ ɪғ ʏᴏᴜ ᴀʀᴇ ʟᴏᴄᴀʟʟʏ ᴅᴇᴘʟᴏʏɪɴɢ.
@@ -63,8 +54,12 @@
 - **➛ `/uploadtxt` ʀᴇᴘʟᴀʏ ᴛᴏ ᴍᴇssᴀɢᴇ ᴏʀ ʀᴇᴘʟᴀʏ ᴡɪᴛʜ ᴍᴇssᴀɢᴇ ᴛᴏ ᴜᴘʟᴏᴀᴅ ᴛᴇxᴛ ᴏɴ ᴛᴇʟᴇɢʀᴀᴘʜ.**
 - **➛ `/broadcast ʙʀᴏᴀᴅᴄᴀsᴛ ᴍᴇssᴀɢᴇ ᴛᴏ ᴜsᴇʀs ᴀɴᴅ ᴄʜᴀᴛᴇs.**
 
+## Change  Logs:
+- **➛ 'Added support for latest pygram support'
+
+
 ### SUPPORT & UPDATES: ❤️❤️
-<a href="https://t.me/Alexa_Help"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/TheTeamAlexa"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/PandaSupportgroup"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/+5lLi1M5kUElkYjE1"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
 ## CREDITS: <br>
 - • <a href="https://github.com/sanila2007">Sanila Ranatunga</a> For Some Code <br>

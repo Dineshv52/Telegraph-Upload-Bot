@@ -1,1 +1,1 @@
-worker: python3 Alexa.py
+worker: python3 bot.py

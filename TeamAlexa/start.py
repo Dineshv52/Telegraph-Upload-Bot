@@ -1,6 +1,6 @@
 """"
-Alexa is a Telegram Audio and video streaming bot 
-Copyright (c) 2022 -present Team=Alexa <https://github.com/TheTeamAlexa>
+Panda upload bot is a Telegram Audio and video streaming bot
+Copyright (c) 2024 -present Team=Security Panda <https://github.com/dineshv52>
 
 This program is free software: you can redistribute it and can modify
 as you want
@@ -9,7 +9,7 @@ as you want
 from env import LOG_ID
 import asyncio
 from pyrogram import Client, filters
-from data import AlexaData
+from data import PandaData
 from TeamAlexa.database.AlexaDB import add_telegraph_user
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
@@ -18,24 +18,24 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 async def cb_handler(client, query: CallbackQuery):
     if query.data == "ABOUT_CMD":
         await query.message.edit(
-            text=AlexaData.ABOUT_STRING,
-            reply_markup=InlineKeyboardMarkup(AlexaData.HELP_BACK),
+            text=PandaData.ABOUT_STRING,
+            reply_markup=InlineKeyboardMarkup(PandaData.HELP_BACK),
         )
     elif query.data == "CMDS_CMD":
         await query.message.edit(
-            text=AlexaData.CMDS_STRING,
-            reply_markup=InlineKeyboardMarkup(AlexaData.HELP_BACK),
+            text=PandaData.CMDS_STRING,
+            reply_markup=InlineKeyboardMarkup(PandaData.HELP_BACK),
         )
     elif query.data == "TEAM_CMD":
         await query.message.edit(
-            text=AlexaData.TEAM_STRING,
-            reply_markup=InlineKeyboardMarkup(AlexaData.HELP_BACK),
+            text=PandaData.TEAM_STRING,
+            reply_markup=InlineKeyboardMarkup(PandaData.HELP_BACK),
             disable_web_page_preview=True
         )
     elif query.data == "HELP_BACK":
         await query.message.edit(
-            text=AlexaData.HELP_STRING,
-            reply_markup=InlineKeyboardMarkup(AlexaData.H_BUTTON),
+            text=PandaData.HELP_STRING,
+            reply_markup=InlineKeyboardMarkup(PandaData.H_BUTTON),
         )
 
 
@@ -56,9 +56,9 @@ async def start_(client: Client, message: Message):
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ Security Panda ᴘʀᴏᴊᴇᴄᴛ ғᴏʀ ᴜᴘʟᴏᴀᴅɪɴɢ ᴏɴ ᴛᴇʟᴇɢʀᴀᴘʜ ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [ᴀsᴀᴅ ᴀʟɪ](https://t.me/bugbountyhunt)
-┣★ ᴜᴘᴅᴀᴛᴇs : [ᴀʟᴇxᴀ ʙᴏᴛ](https://t.me/+5lLi1M5kUElkYjE1)
-┣★ sᴜᴘᴘᴏʀᴛ : [ᴀʟᴇxᴀ sᴜᴘᴘᴏʀᴛ](https://t.me/PandaSupportgroup)
+┣★ ᴄʀᴇᴀᴛᴏʀ : [Security Pana](https://t.me/bugbountyhunt)
+┣★ ᴜᴘᴅᴀᴛᴇs : [ʙᴏᴛ updates channel](https://t.me/Panda_bot_update_channel)
+┣★ sᴜᴘᴘᴏʀᴛ : [Bot related sᴜᴘᴘᴏʀᴛ](https://t.me/PandaSupportgroup)
 ┣★ ʀᴜɴ ➛  : /help ᴛᴏ sᴇᴇ ʜᴇʟᴘ ᴍᴇɴᴜ
 ┗━━━━━━━━━━━━━━━━━┛
 
@@ -82,6 +82,6 @@ async def start_(client: Client, message: Message):
 @Client.on_message(filters.command("help") & filters.private)
 async def help(client, message):
     lamao = await message.reply_text(
-        text=AlexaData.HELP_STRING,
-        reply_markup=InlineKeyboardMarkup(AlexaData.H_BUTTON),
+        text=PandaData.HELP_STRING,
+        reply_markup=InlineKeyboardMarkup(PandaData.H_BUTTON),
     )

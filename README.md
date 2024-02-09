@@ -59,10 +59,10 @@
 
 
 ### SUPPORT & UPDATES: ❤️❤️
-<a href="https://t.me/PandaSupportgroup"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/+5lLi1M5kUElkYjE1"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/PandaSupportgroup"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Panda_bot_update_channel"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
 ## CREDITS: <br>
-- • <a href="https://github.com/sanila2007">Sanila Ranatunga</a> For Some Code <br>
+- • <a href="https://github.com/dineshv52">Security Panda</a> For Some Code <br>
 - • <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a> is a great Python library for working with the Telegram API.
-- • <a href="https://t.me/Jankari_Ki_Duniya">Asad Ali</a> For enhancing, modifying and database adding with Minor error fixing.
+- • <a href="https://t.me/bugbountyhunt">SecurityPanda</a> For enhancing, modifying and database adding with Minor error fixing.
   

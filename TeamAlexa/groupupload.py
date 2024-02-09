@@ -1,7 +1,7 @@
-# Copyright ©️ 2022 Sanila Ranatunga. All Rights Reserved Modified By ©️ Team Alexa
+# Copyright ©️ 2024 . All Rights Reserved Modified By ©️ Team SecurityPanda
 """"
-Alexa is a Telegram Audio and video streaming bot 
-Copyright (c) 2023 -present Team=Alexa <https://github.com/TheTeamAlexa>
+Security panda is a Telegram Audio and video streaming bot
+Copyright (c) 2023 -present Team=Security Panda <https://github.com/dineshv52>
 
 This program is free software: you can redistribute it and can modify
 as you want.
@@ -11,7 +11,7 @@ import os
 import re
 import asyncio
 import traceback
-from data import AlexaData
+from data import PandaData
 from pyrogram.errors import FloodWait
 from telegraph import upload_file, Telegraph, exceptions
 from pyrogram import Client, filters, __version__ as pyrover
@@ -19,24 +19,24 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 chat_watcher_group = 10
 telegraph = Telegraph()
-telegraph.create_account(short_name="The Team Alexa")
+telegraph.create_account(short_name="Security Panda")
             
-## TEXT UPLOAD THIS MODULE IS OFFICIALLY MADE BY TEAM ALEXA
+## TEXT UPLOAD THIS MODULE IS OFFICIALLY MADE BY Security Panda
 ## Use credit if you wanna use this in your project : 
-## Copyright (c) 2023 -present Team=Alexa <https://github.com/TheTeamAlexa>
+## Copyright (c) 2023 -present Team=Security Panda <https://github.com/dineshv52>
 
 @Client.on_message(filters.command("uploadtxt"))
 async def upload_text_telegraph(client, message: Message):
     if not message.reply_to_message and len(message.command) == 1:
-        await message.reply_text(AlexaData.REPLAY_MSG)
+        await message.reply_text(PandaData.REPLAY_MSG)
         return
-    msg = await message.reply_text(AlexaData.UPLOAD_MSG)
+    msg = await message.reply_text(PandaData.UPLOAD_MSG)
     if message.reply_to_message:
         text = message.reply_to_message.text or message.reply_to_message.caption
     else:
         text = re.sub(r"/\w+ ", "", message.text)
     try:
-        telegraph.create_account(short_name='The Team Alexa')
+        telegraph.create_account(short_name='Security Panda')
         author_url = f'https://telegram.dog/{message.from_user.username}' if message.from_user.id else None
         if len(message.command) > 1:
             security_title = ' '.join(message.command[1:])
@@ -49,7 +49,7 @@ async def upload_text_telegraph(client, message: Message):
             [
                 [
                     InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/PandaSupportgroup"),
-                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/+5lLi1M5kUElkYjE1")
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Panda_bot_update_channel")
                 ],
                 [
                     InlineKeyboardButton("🌐 ᴡᴇʙ ᴘʀᴇᴠɪᴇᴡ 🌐", url=generated_link)
@@ -74,7 +74,7 @@ async def upload_to_telegraph(bot, message):
     if not reply:
         await bot.send_message(
             message.chat.id, 
-            text=AlexaData.UPLOAD_MSG2, 
+            text=PandaData.UPLOAD_MSG2, 
             parse_mode="markdown"
         )
     # replied to media
@@ -88,7 +88,7 @@ async def upload_to_telegraph(bot, message):
         ):
             msg = await bot.send_message(
                 message.chat.id, 
-                text=AlexaData.HOLD_MSG, 
+                text=PandaData.HOLD_MSG, 
                 parse_mode="markdown"
             )
             # change ext to png to use convert in link
@@ -111,7 +111,7 @@ async def upload_to_telegraph(bot, message):
                 [
                     [
                         InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/bugbountyhunt"),
-                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/+5lLi1M5kUElkYjE1")
+                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Panda_bot_update_channel")
                     ],
                     [
                         InlineKeyboardButton("🌐 ᴡᴇʙ ᴘʀᴇᴠɪᴇᴡ 🌐", url=generated_link)
@@ -131,13 +131,13 @@ async def upload_to_telegraph(bot, message):
         else:
             await bot.send_message(
                 message.chat.id,
-                text=AlexaData.ERROR_MSG,
+                text=PandaData.ERROR_MSG,
                 parse_mode="markdown"
             )
     else:
         # if replied to unsupported media
         await bot.send_message(
             message.chat.id, 
-            text=AlexaData.FILE_ERROR, 
+            text=PandaData.FILE_ERROR, 
             parse_mode="markdown"
         )

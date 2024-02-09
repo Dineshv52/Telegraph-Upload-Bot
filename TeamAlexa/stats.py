@@ -1,7 +1,7 @@
-# Copyright ©️ 2022 Sanila Ranatunga. All Rights Reserved Modified By ©️ Team Alexa
+# Copyright ©️ 2024 Security Panda. All Rights Reserved Modified By ©️ Team Security Panda
 """"
-Alexa is a Telegram Audio and video streaming bot 
-Copyright (c) 2023 -present Team=Alexa <https://github.com/TheTeamAlexa>
+Panda telegraph upload bot is a Telegram Audio and video streaming bot
+Copyright (c) 2023 -present Team=Security Panda <https://github.com/dineshv52>
 
 This program is free software: you can redistribute it and can modify
 as you want.
@@ -11,7 +11,7 @@ import os
 import re
 import asyncio
 import traceback
-from data import AlexaData
+from data import PandaData
 from pyrogram import Client, filters, __version__ as pyrover
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from TeamAlexa.database.AlexaDB import get_telegraph_users, get_telegraph_chats, add_telegraph_chat
@@ -35,5 +35,5 @@ async def stats(bot, message):
     await alexaai.delete()    
     copypast_lawdey = len(await get_telegraph_users())
     matlabi_jhanto = len(await get_telegraph_chats())
-    await message.reply(AlexaData.STATS.format(copypast_lawdey, matlabi_jhanto, pyrover))
+    await message.reply(PandaData.STATS.format(copypast_lawdey, matlabi_jhanto, pyrover))
     
